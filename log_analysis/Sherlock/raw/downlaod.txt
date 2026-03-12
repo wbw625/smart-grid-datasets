@@ -1,0 +1,2 @@
+Sherlock: A Dataset for Process-aware Intrusion Detection Research on Power Grid Networks
+https://zenodo.org/records/18467070
