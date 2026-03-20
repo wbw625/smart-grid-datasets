@@ -97,8 +97,8 @@ The same preview also shows state snapshots such as `train.n302.state.gz` and `t
 The paper further explains the protocol/process semantics behind these files:
 
 - Between the control center and RTUs, IEC 104 is used with a **10-second interval** for periodic unsolicited measurement transmissions.
-- Floating-point values such as **voltages, currents, and power** are transmitted periodically.
-- Booleans such as **circuit-breaker states**, **tap positions**, and **connectivity states** are sent spontaneously when they change.
+- Floating-point values such as **voltages**, **currents**, and **power** are transmitted periodically.
+- Booleans such as **circuit-breaker states**, and **connectivity states** are sent spontaneously when they change.
 - MTU control commands are acknowledged by RTUs, with negative confirmations for invalid commands.
 
 For the IPAL representation, the paper states that Sherlock logs the **initial system state** and then parses each intercepted **IEC 104 packet** to update the state while mapping abstract **IOAs** to **human-readable identifiers**. The resulting observed state is logged **every second** from a single vantage point.
