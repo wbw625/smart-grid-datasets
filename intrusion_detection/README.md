@@ -1,5 +1,7 @@
 # Intrusion Detection Datasets
 
+---
+
 ## ERENO
 
 ### Link
@@ -41,6 +43,7 @@ Because the engineered features are strong, using all 69 features directly may m
   Link: [ResearchGate page](https://www.researchgate.net/publication/385539491_Machine_Learning-Based_Feature_Selection_for_Intrusion_Detection_Systems_in_IEC_61850-Based_Digital_Substations)  
   This paper explicitly uses ERENO and studies which features are most useful for intrusion detection.
 
+---
 
 ## Dataset to Train Intrusion Detection Systems based on Machine Learning Models for Electrical Substations (SANDI-2024)
 
@@ -81,6 +84,8 @@ Because the processed CSVs already exist, the dataset is convenient for supervis
   Link: [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S2352340924011156)
 
 
+
+---
 
 ## IEC 60870-5-104 Intrusion Detection Dataset
 
@@ -134,6 +139,8 @@ Because the dataset publisher already provides balanced train/test CSV files, th
   Link: [Springer page](https://link.springer.com/article/10.1007/s11416-025-00549-1)  
   This paper also uses the IEC104 dataset. The visible performance table reports results around **0.900** on the main precision/recall/F1 entries for the highlighted model.
 
+
+---
 
 ## DNP3 Intrusion Detection Dataset
 
@@ -203,6 +210,8 @@ Because balanced train/test files and multiple parser-timeout variants are inclu
   The paper reports **99.56% accuracy** on multi-class classification over nine DNP3 attack types.
 
 
+---
+
 ## ICS Cyber Attack Datasets – Power System Datasets
 
 ### Link
@@ -259,6 +268,8 @@ This dataset is best used as a **tabular cyber-physical classification dataset**
   This paper reports best accuracies of **97.66%, 96.50%, 94.12%, and 92.46%** across four categories of the power-system datasets while using a reduced feature subset.
 
 
+---
+
 ## Network Traffic Dataset IEC-61850 Cyber Attacks
 
 ### Link
@@ -273,6 +284,8 @@ The publicly accessible preview pages do **not expose a reliable full column/hea
 ### Suggested usage
 This dataset can be used as a **quick packet-level supervised benchmark** for GOOSE attack classification, especially when a simpler alternative to multi-view cyber-physical datasets such as ERENO is needed. Before training, the exact label column and any potential leakage features should be verified. It may also be useful for **transfer-learning experiments across public GOOSE datasets**.
 
+
+---
 
 ## EPIC Attack Datasets (EPIC-A / EPIC-B)
 

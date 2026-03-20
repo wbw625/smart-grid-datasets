@@ -1,5 +1,7 @@
 # Log Analysis Datasets
 
+---
+
 ## Six-Month Monitoring Dataset From a Ten-Turbine Onshore Wind Farm in Greece (SMD10TOWFGR)
 
 ### Link
@@ -45,7 +47,7 @@ Each `WTxx_logs.csv` file follows the same event/alarm schema:
 ### Suggested usage
 This dataset is best suited to **condition monitoring**, **predictive maintenance**, **operational anomaly detection**, and **short-horizon forecasting** for wind turbines. For supervised fault classification, labels would typically need to be constructed from the **alarm/event logs** or from time windows around alarm codes, because the release is organized as **per-turbine sensor files plus separate event/alarm logs**, rather than as a ready-made one-row-one-label benchmark.
 
-
+---
 
 ## Sherlock: A Dataset for Process-aware Intrusion Detection Research on Power Grid Networks
 
